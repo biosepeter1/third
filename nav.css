@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    overflow-x: hidden;
+}
+html,body{
+    overflow-x: hidden;
+}
+.navwrappwer{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:60px ;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.leftwrapper{
+    display: flex;
+    align-items: center;
+}
+.leftwrapper>.icon{
+    margin-right: 13px;
+    font-size: 2em;
+}
+
+.Contactwrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    
+}
+.Contactwrapper>.time{
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 0.8em;
+    color: #858585;
+}
+
+.linkwrapper a{
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcc;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.linkwrapper a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+    
+}
+
+.rightwrapper{
+    display: flex;
+    align-items: center;
+}
+.rightwrapper>.icon{
+    margin-left: 10px;
+    font-size: 2em;
+}
+.addresswrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    text-align: end;
+    
+}
+.rightwrapper a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.rightwrapper a:hover{
+    color:#cea135;
+    transition: 0.2s;
+}
+.linkwrapper{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width:500px ;
+    
+}
+.linkwrapper>.logowrapper{
+   display: flex;
+   justify-content: center;
+    
+}
+.linkwrapper>.navlink{
+    display: flex;
+    justify-content: space-between;
+}
+.navlink1{
+    width: 70px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.herosection{
+    background-image:url(./images/logo/education-day-arrangement-table.jpg);
+    padding: 100px;
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2,h3,h4{
+    font-family: "Roboto Slab", serif;
+}
+
+.herosection>.top{
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 210px;
+    border-radius: 2px;
+    padding: 1px 20px;
+    box-shadow:  20px -5px 31px -12px  rgba(15, 14, 14, 0.75);
+}
+.herosection>.buttom{
+    background-color: #cea135;
+    color: #11122b;
+    width: 130px;
+    padding: 2px 15px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
